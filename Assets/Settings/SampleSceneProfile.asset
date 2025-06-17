@@ -61,14 +61,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   color:
-    m_OverrideState: 0
-    m_Value: {r: 0, g: 0, b: 0, a: 1}
+    m_OverrideState: 1
+    m_Value: {r: 0.5660378, g: 0.5259879, b: 0.52640134, a: 1}
   center:
     m_OverrideState: 0
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.637
   smoothness:
     m_OverrideState: 0
     m_Value: 0.2
@@ -151,7 +151,7 @@ MonoBehaviour:
     m_Value: 0
   intensity:
     m_OverrideState: 1
-    m_Value: 0.205
+    m_Value: 0.307
   response:
     m_OverrideState: 0
     m_Value: 0.8

@@ -23,9 +23,9 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.3773585, g: 0.3773585, b: 0.3773585, a: 1}
   m_AmbientEquatorColor: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
   m_AmbientGroundColor: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 1}
-  m_AmbientIntensity: 0.78
+  m_AmbientIntensity: 2.3
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.31132078, g: 0.31132078, b: 0.31132078, a: 1}
+  m_SubtractiveShadowColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 2039a0ad0a9d05549928b70362f54902, type: 2}
   m_HaloStrength: 0.17
   m_FlareStrength: 1
@@ -93,7 +93,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 20201, guid: 0000000000000000f000000000000000, type: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: c3878db6012f1e749a53c325e0ce3b9a, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -5223,35 +5223,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf315928459e5164caa04285676374e7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -11.688129
+      value: -11.52
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf315928459e5164caa04285676374e7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.6
+      value: 3.38
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf315928459e5164caa04285676374e7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -31.085194
+      value: -30.79
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf315928459e5164caa04285676374e7, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.78051674
+      value: 0.7097402
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf315928459e5164caa04285676374e7, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.5708195
+      value: -0.6567419
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf315928459e5164caa04285676374e7, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.20572451
+      value: 0.1870696
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf315928459e5164caa04285676374e7, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.15045352
+      value: 0.17310053
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf315928459e5164caa04285676374e7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -72.359
+      value: -85.558
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf315928459e5164caa04285676374e7, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -5311,7 +5311,7 @@ Camera:
   m_GameObject: {fileID: 330585543}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 4
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
@@ -5366,6 +5366,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 467507985}
   - {fileID: 1976378241}
   - {fileID: 1939269026}
   m_Father: {fileID: 0}
@@ -5648,7 +5649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7251269214777552473, guid: b10592ee3c5e98444bb28689626de8ad, type: 3}
       propertyPath: looping
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7251269214777552473, guid: b10592ee3c5e98444bb28689626de8ad, type: 3}
       propertyPath: SizeModule.enabled
@@ -5851,13 +5852,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 467507984}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.55, y: -5.89, z: -5.53}
-  m_LocalScale: {x: 6.8336, y: 6.8336, z: 6.8336}
+  m_LocalRotation: {x: -0.35363585, y: 0.41477755, z: -0.09861398, w: 0.8325723}
+  m_LocalPosition: {x: -16.69, y: 5.12, z: 90.88}
+  m_LocalScale: {x: 18.67213, y: 18.672129, z: 18.672127}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1976378241}
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+  m_Father: {fileID: 330585546}
+  m_LocalEulerAnglesHint: {x: -30.467, y: -298.087, z: -32.064}
 --- !u!114 &467507986
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5890,12 +5891,12 @@ Light:
   m_GameObject: {fileID: 467507984}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 2
-  m_Color: {r: 0.3584906, g: 0.3584906, b: 0.19784622, a: 1}
-  m_Intensity: 500
-  m_Range: 50
-  m_SpotAngle: 30
-  m_InnerSpotAngle: 21.80208
+  m_Type: 0
+  m_Color: {r: 0.8681559, g: 0.8980392, b: 0.3333334, a: 1}
+  m_Intensity: 5000
+  m_Range: 30
+  m_SpotAngle: 34.857487
+  m_InnerSpotAngle: 3.8085105
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
@@ -5934,7 +5935,7 @@ Light:
   m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
+  m_BounceIntensity: 30
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
@@ -8118,14 +8119,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976378240}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.21130045, y: -0.2407997, z: 0.09760344, w: 0.9422533}
-  m_LocalPosition: {x: 32.3, y: 16.5, z: 44.2}
-  m_LocalScale: {x: 2.7324, y: 2.7324, z: 2.7324}
+  m_LocalRotation: {x: 0.13789067, y: 0.79845893, z: -0.52721506, w: -0.25591746}
+  m_LocalPosition: {x: 6.4, y: 89.2, z: 143.7}
+  m_LocalScale: {x: 16.426369, y: 16.426369, z: 16.426369}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 467507985}
+  m_Children: []
   m_Father: {fileID: 330585546}
-  m_LocalEulerAnglesHint: {x: -20.56, y: -31.919, z: 17.766}
+  m_LocalEulerAnglesHint: {x: 50.475, y: 240.53, z: 50.354}
 --- !u!114 &1976378242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8159,14 +8159,14 @@ Light:
   m_Enabled: 1
   serializedVersion: 11
   m_Type: 1
-  m_Color: {r: 0.5660378, g: 0.30968976, b: 0.24296905, a: 1}
-  m_Intensity: 0.8
+  m_Color: {r: 0.7075472, g: 0.7026771, b: 0.69753474, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
