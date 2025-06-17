@@ -1,0 +1,40 @@
+# =============== Unity 기본 무시 파일 ===============
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+MemoryCaptures/
+
+# =============== Unity IDE 관련 무시 파일 ===============
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+
+# =============== OS, 기타 ===============
+.DS_Store
+*.apk
+*.aab
+*.zip
+*.rar
+
+# =============== Unity Collaborate, Plastic SCM ===============
+.collabignore
+.PlasticSCM/
+
+# =============== Visual Studio Code ===============
+.vscode/
+
+# =============== Crash Reporter ===============
+sysinfo.txt
